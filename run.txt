@@ -1,0 +1,7 @@
+javac -encoding UTF-8 BattleshipGame.java
+
+terminal1:
+java BattleshipGame -mode server -port 8080 -map map_server.txt
+
+terminal2:
+java BattleshipGame -mode client -host localhost -port 8080 -map map_client.txt -human
