@@ -5,3 +5,5 @@ java BattleshipGame -mode server -port 8080 -map map_server.txt
 
 terminal2:
 java BattleshipGame -mode client -host localhost -port 8080 -map map_client.txt -human
+
+flaga -human sprawia, ze gramy my, a nie bot. Bot gra losujac kazdy kolejny ruch
